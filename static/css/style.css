@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f2fd; /* Light blue background */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #007bff; /* Blue */
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Container */
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings */
+h1 {
+    color: #007bff;
+}
+
+/* Input Fields */
+input[type="text"], input[type="password"] {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f8f9fa;
+}
+
+/* Submit Button */
+button, input[type="submit"] {
+    background-color: #28a745; /* Green */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Forms */
+.form-group {
+    text-align: left;
+    margin: 15px 0;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    color: #333;
+}
+/* Logout Button (Same Style as Login Box) */
+.logout-container {
+    max-width: 300px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logout-button {
+    background-color: #dc3545; /* Red */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
+

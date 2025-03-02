@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exit Page</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Thanks for visiting my website!</h1>
+        <p>We hope to see you again soon.</p>
+
+        <div class="logout-container">
+            <a href="{{ url_for('home') }}" class="logout-button">Go Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
